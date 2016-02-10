@@ -1,0 +1,176 @@
+{
+  "player": {
+    "sprite": "cat girl",
+    "x": "0",
+    "y": "0",
+    "width": "101",
+    "height": "100",
+    "offsetX": "0",
+    "offsetY": "-71"
+  },
+  "sprites": {
+    "hero0": {
+      "type": "rpgmaker",
+      "image": "assets\\sprites\\hero.png",
+      "imageWidth": "384",
+      "imageHeight": "360",
+      "index": 0
+    },
+    "cat girl": {
+      "type": "image",
+      "image": "assets\\sprites\\Character Cat Girl.png",
+      "width": "101",
+      "height": "171"
+    }
+  },
+  "name": "Project1",
+  "initialMap": "PlanetCute.json",
+  "mainSkin": "system",
+  "resolution": {
+    "width": "1280",
+    "height": "720",
+    "screenWidth": "1280",
+    "screenHeight": "720",
+    "useDynamicResolution": false
+  },
+  "maps": {
+    "Rogue.json": "tche",
+    "Tiled.json": "tiled",
+    "Tiled16.json": "tiled",
+    "PlanetCute.json": "tche",
+    "RPG.json": "tche"
+  },
+  "skins": {
+    "system": {
+      "type": "rpgmaker",
+      "image": "assets\\skins\\system.png"
+    }
+  },
+  "sounds": {},
+  "recentObjects": [
+    {
+      "type": "tileset",
+      "name": "roguelikeDungeon"
+    },
+    {
+      "type": "tileset",
+      "name": "roguelikeSheet"
+    },
+    {
+      "type": "map",
+      "name": "Tiled.json"
+    },
+    {
+      "type": "map",
+      "name": "Tiled16.json"
+    },
+    {
+      "type": "tileset",
+      "name": "Tileset"
+    },
+    {
+      "type": "map",
+      "name": "PlanetCute.json"
+    },
+    {
+      "type": "map",
+      "name": "Rogue.json"
+    },
+    {
+      "type": "tileset",
+      "name": "RPGpack_sheet"
+    },
+    {
+      "type": "tileset",
+      "name": "hero"
+    },
+    {
+      "type": "map",
+      "name": "RPG.json"
+    }
+  ],
+  "tilesets": {
+    "Floor": {
+      "name": "Floor",
+      "image": "assets\\tilesets\\TileA5.png",
+      "type": "tiles",
+      "tileWidth": 32,
+      "tileHeight": 32,
+      "spacing": 0
+    },
+    "roguelikeCity": {
+      "name": "roguelikeCity",
+      "image": "assets\\tilesets\\roguelikeCity_transparent.png",
+      "type": "tiles",
+      "tileWidth": 16,
+      "tileHeight": 16,
+      "spacing": 1
+    },
+    "roguelikeIndoor": {
+      "name": "roguelikeIndoor",
+      "image": "assets\\tilesets\\roguelikeIndoor_transparent.png",
+      "type": "tiles",
+      "tileWidth": 16,
+      "tileHeight": 16,
+      "spacing": 0
+    },
+    "roguelikeDungeon": {
+      "name": "roguelikeDungeon",
+      "image": "assets\\tilesets\\roguelikeDungeon_transparent.png",
+      "type": "tiles",
+      "tileWidth": 16,
+      "tileHeight": 16,
+      "spacing": 1
+    },
+    "RPGpack_sheet": {
+      "name": "RPGpack_sheet",
+      "image": "assets\\tilesets\\RPGpack_sheet.png",
+      "type": "tiles",
+      "tileWidth": 32,
+      "tileHeight": 32,
+      "spacing": 0
+    },
+    "roguelikeSheet": {
+      "name": "roguelikeSheet",
+      "image": "assets\\tilesets\\roguelikeSheet_transparent.png",
+      "type": "tiles",
+      "tileWidth": 16,
+      "tileHeight": 16,
+      "spacing": 1
+    },
+    "Tileset": {
+      "name": "Tileset",
+      "image": "assets\\tilesets\\Tileset.png",
+      "type": "tiles",
+      "tileWidth": 0,
+      "tileHeight": 0,
+      "spacing": 0
+    }
+  },
+  "objects": {},
+  "variables": {},
+  "characters": {},
+  "languages": {},
+  "music": {},
+  "soundEffects": {},
+  "movies": {},
+  "items": {},
+  "animations": {},
+  "faces": {},
+  "jobs": {},
+  "enemies": {},
+  "skills": {},
+  "states": {},
+  "achievements": {},
+  "huds": {},
+  "packages": {},
+  "vehicles": {},
+  "tcheScenes": [
+    "SceneMap",
+    "SceneTitle"
+  ],
+  "version": 1,
+  "_lastMapName": "RPG.json",
+  "gameScenes": [],
+  "initialScene": "SceneTitle"
+}
